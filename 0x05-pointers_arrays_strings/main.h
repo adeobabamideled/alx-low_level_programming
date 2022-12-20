@@ -1,51 +1,31 @@
-#ifndef MAIN_H                                                                                                                    
+#ifndef MAIN_H
 
-#define MAIN_H                                                                                                                    
+#define MAIN_H
 
-                                                                                                                                       
+#include <stdio.h>
 
-/**                                                                                                                                    
+#include <unistd.h>
 
- * File: main.h                                                                                                                    
+int _putchar(char c);
 
- * Auth: sam tech(Samuel birhanu)                                                                                                            
+void reset_to_98(int *n);
 
- * Desc: Header file containing prototypes for all functions                                                                            
+void swap_int(int *a, int *b);
 
- *       used in the 0x06. C - More pointers, arrays and strings directory.
+int _strlen(char *s);
 
- */                                                                                                                                    
+void _puts(char *str);
 
-                                                                                                                                       
+void print_rev(char *s);
 
-int _putchar(char c);                                                                                                                  
+void rev_string(char *s);
 
-char *_strcat(char *dest, char *src);                                                                                                  
+void puts2(char *str);
 
-char *_strncat(char *dest, char *src, int n);                                                                                          
+void puts_half(char *str);
 
-char *_strncpy(char *dest, char *src, int n);                                                                                          
+void print_array(int *a, int n);
 
-int _strcmp(char *s1, char *s2);                                                                                                        
-
-void reverse_array(int *a, int n);                                                                                                      
-
-char *string_toupper(char *);                                                                                                          
-
-char *cap_string(char *);                                                                                                              
-
-char *leet(char *);                                                                                                                    
-
-char *rot13(char *);                                                                                                                    
-
-void print_number(int n);                                                                                                              
-
-char *infinite_add(char *n1, char *n2, char *r, int size_r);                                                                            
-
-void print_buffer(char *b, int size);                                                                                                  
-
-                                                                                                                                       
+char *_strcpy(char *dest, char *src);
 
 #endif
-
-
